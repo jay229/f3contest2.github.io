@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Time Zone</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@200;300;400;600;700&display=swap");
+    </style>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="parent p1">
+      <div class="child1">
+        <h2>TimeZone API</h2>
+        <h2>Your Current Time Zone</h2>
+      </div>
+      <div class="child2" id="p1-child2">
+        <!-- <p id="tz">Name Of Time Zone:</p>
+        <div class="lat-ltd">
+          <p id="lat">Lat:</p>
+          <p id="lad">Lad:</p>
+        </div>
+        <p id="offset-std">Offset STD:</p>
+        <p id="offset-std-second">Offset STD Seconds:</p>
+        <p id="offset-dst">Offset DST:</p>
+        <p id="offset-dst-second">Offset DST Seconds:</p>
+        <p id="country">Country:</p>
+        <p id="postcode">Postcode:</p>
+        <p id="city">City:</p> -->
+      </div>
+    </div>
+    <div class="parent parent2">
+      <div class="ch1">
+        <h2>Enter Address</h2>
+        <input type="text" required placeholder="Address" id="input" />
+        <button id="submit-btn">Submit</button>
+      </div>
+      <h2 id="result">Your result</h2>
+      <p id="error">Please enter valid address!</p>
+      <div class="child2 ch2" id="p2-ch2">
+        <p id="tz">Name Of Time Zone:</p>
+        <div class="lat-ltd">
+          <p id="lat">Lat:17.385044</p>
+          <p id="lad">Lad:78.486671</p>
+        </div>
+        <p id="offset-std">Offset STD:</p>
+        <p id="offset-std-second">Offset STD Seconds:</p>
+        <p id="offset-dst">Offset DST:</p>
+        <p id="offset-dst-second">Offset DST Seconds:</p>
+        <p id="country">Country:</p>
+        <p id="postcode">Postcode:</p>
+        <p id="city">City:</p>
+      </div>
+    </div>
+    <script src="engine.js"></script>
+  </body>
+</html>

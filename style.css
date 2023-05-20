@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.parent {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    height: 470px;
+}
+
+.child1 {
+    margin-left: 30px;
+}
+
+.child1:first-child {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.3vh;
+    line-height: 50px;
+    color: #000000;
+
+}
+
+.child1 :last-child {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3vh;
+    line-height: 40px;
+}
+
+.child2 {
+    border: 2px solid black;
+    width: 50%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 30px;
+    padding: 20px;
+}
+
+.lat-ltd {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.p1 {
+    height: max-content;
+}
+
+.parent2 {
+    background-color: #000000;
+    color: #fff;
+    margin-top: 10px;
+}
+
+#result {
+    margin-left: 30px;
+    font-size: 3vh;
+}
+
+.ch1 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 20%;
+    margin-left: 30px;
+    margin-top: 1%;
+}
+
+.ch1 h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3vh;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.ch1 input {
+    height: 20px;
+    border: 1px solid #FFFFFF;
+    background-color: transparent;
+    outline: none;
+    color: #fff;
+    padding: 3px;
+}
+
+#submit-btn {
+    width: 7vw;
+    height: 30px;
+    padding: 10px;
+    cursor: pointer;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 2.2vh;
+    line-height: 10px;
+    text-align: center;
+    color: #000000;
+}
+
+#error {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 29px;
+    /* identical to box height */
+    margin-left:30px ;
+    color: #E84444;
+    display: none;
+}
+
+.ch2 {
+    border: 2px solid white;
+    display: none;
+    line-height: 26px;
+
+}
